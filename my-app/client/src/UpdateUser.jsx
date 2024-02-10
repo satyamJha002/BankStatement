@@ -145,6 +145,7 @@ const UpdateUser = () => {
               placeholder="Enter Zip Code"
               className="form-control"
               value={zipCode}
+              onChange={(e) => setZipCode(e.target.value)}
               required
             />
           </div>
